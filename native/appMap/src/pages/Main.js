@@ -1,9 +1,11 @@
 import React from 'react'
-import { View } from  'react-native'
+import { View, Text } from  'react-native'
 
 
 function Main () {
-    return <View />
+    return (<View>
+          <Text>Main</Text>
+         </View>)
 }
 
 export default Main

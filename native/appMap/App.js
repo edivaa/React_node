@@ -7,14 +7,17 @@
  */
 
 import React from 'react';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, StatusBar } from 'react-native';
 import Routes from './src/routes'
 
 
 
 const App: () => React$Node = () => {
   return (
-    <Routes />
+    <>
+      <StatusBar barStyle='light-content' backgroundColor='#7040E7'/>
+      <Routes />
+    </>
   )
 }
 

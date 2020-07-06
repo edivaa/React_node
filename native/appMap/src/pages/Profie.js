@@ -1,9 +1,11 @@
 import React from 'react'
-import { View } from  'react-native'
+import { View, Text } from  'react-native'
 
 
 function Profie () {
-    return <View />
+    return (<View>
+            <Text>Profie</Text>
+           </View>)
 }
 
 export default Profie
