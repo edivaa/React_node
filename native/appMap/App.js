@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import { StyleSheet, StatusBar } from 'react-native';
+import { StyleSheet, StatusBar, SafeAreaView } from 'react-native';
 import Routes from './src/routes'
 
 
@@ -16,7 +16,10 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle='light-content' backgroundColor='#7040E7'/>
-      <Routes />
+     <SafeAreaView>
+        <Routes /> 
+     </SafeAreaView>
+    
     </>
   )
 }
