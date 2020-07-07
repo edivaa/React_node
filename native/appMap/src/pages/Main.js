@@ -4,9 +4,7 @@ import MapView from 'react-native-maps'
 
 
 function Main () {
-    return (<View>
-          <Text>Main</Text>
-         </View>)
+    return <MapView style={{flex:1}} />
 }
 
 export default Main
