@@ -6,12 +6,9 @@ const path = require('path');
 
 const app = express();
 
-// mongoose.connect('mongodb+srv://projetosMongo:projetosMongo@basemongo-xgaad.mongodb.net/aircnc=true&w=majority',{
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// });
 
-mongoose.connect('mongodb://192.168.15.6:27017/projetosMongo',{
+
+mongoose.connect('mongodb://localhost:27017/aircnc',{
     useNewUrlParser: true,
     useUnifiedTopology:true
 });
