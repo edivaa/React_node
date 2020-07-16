@@ -6,8 +6,8 @@ const path = require('path');
 
 const app = express();
 
-
 mongoose.connect('mongodb://localHost:27017/baseAircnc',{
+
     useNewUrlParser: true,
     useUnifiedTopology:true
 });
